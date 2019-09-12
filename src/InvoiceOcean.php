@@ -15,6 +15,10 @@ class InvoiceOcean
     protected $service_url;
     protected $company_name;
     
+    /**
+     *
+     * @var array
+     */
     private $data = array();
 
 
