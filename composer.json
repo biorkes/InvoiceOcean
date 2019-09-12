@@ -1,0 +1,22 @@
+{
+    "name": "biorkes/invoiceocean",
+    "description": "PHP API integration for invoiceocean.com",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valentin Valev",
+            "email": "biorkes@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"biorkes\\invoiceocean\\": "src/"}
+    },
+    "require": {},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
