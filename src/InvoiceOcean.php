@@ -21,7 +21,11 @@ class InvoiceOcean
      */
     private $data = array();
 
-
+    /**
+     * 
+     * @param string $api_token
+     * @param string $company_name
+     */
     public function __construct( string $api_token, string $company_name )
     {
         $this->api_token = $api_token;
