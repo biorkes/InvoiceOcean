@@ -8,7 +8,6 @@
 
 namespace biorkes\InvoiceOcean;
 
-
 class InvoiceOcean
 {
     protected $api_token;
